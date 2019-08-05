@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InputKeyboardView">
+        <attr name="xmlLayoutResId" format="reference"/>
+        <attr name="specialKeyBackground" format="reference"/>
+        <attr name="specialKeyCodes" format="string"/>
+        <attr name="deleteKeyColor" format="color|reference"/>
+        <attr name="specialKeyTextSize" format="reference|dimension"/>
+    </declare-styleable>
+</resources>

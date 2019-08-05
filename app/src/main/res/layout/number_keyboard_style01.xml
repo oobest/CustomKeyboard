@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:background="@drawable/ic_white_rectangle_radius4"
+        android:padding="8dp"
+        android:backgroundTint="#F7F8FF"
+        android:layout_height="wrap_content">
+    <com.albert.study.keyboard_lib.InputKeyboardView
+            android:id="@id/input_keyboard_view"
+            app:xmlLayoutResId="@xml/key_number_style01"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:keepScreenOn="true"
+            android:background="@android:color/transparent"
+            android:keyBackground="@drawable/key_background"
+            app:specialKeyBackground="@drawable/key_background_special"
+            app:specialKeyCodes="-5,45"
+            android:keyTextColor="#747995"
+            app:deleteKeyColor="#747995"
+            app:specialKeyTextSize="26sp"
+            android:keyTextSize="26sp"
+            android:shadowRadius="0"
+            android:layout_height="wrap_content"/>
+</FrameLayout>
